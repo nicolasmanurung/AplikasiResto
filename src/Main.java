@@ -62,10 +62,11 @@ public class Main {
 
     private List<MenuSpecial> setDefaultMenu() {
         List<MenuSpecial> listMenu = new ArrayList<>();
-        listMenu.add(new MenuSpecial("Nasi Goreng Special ", 10000.50f));
-        listMenu.add(new MenuSpecial("Nasi Goreng a ", 15000.20f));
-        listMenu.add(new MenuSpecial("Nasi Goreng b ", 6000.00f));
-        listMenu.add(new MenuSpecial("Nasi Goreng c ", 8000.15f));
+        listMenu.add(new MenuSpecial("Nasi Goreng Special ", 9999.99f));
+        listMenu.add(new MenuSpecial("Ayam Bakar Spesial ", 12345.67f));
+        listMenu.add(new MenuSpecial("Steak Sirloin Spesial ", 21108.40f));
+        listMenu.add(new MenuSpecial("Kwetiaw Siram Spesial", 13579.13f));
+        listMenu.add(new MenuSpecial("Kambing Guling Spesial", 98765.43));
         return listMenu;
     }
 
